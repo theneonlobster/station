@@ -10,6 +10,7 @@ module: {  }
 theme: {  }
 blacklist:
   - acquia_connector.settings
+  - shield.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
