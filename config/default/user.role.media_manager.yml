@@ -1,0 +1,16 @@
+uuid: 2baec058-8f7a-465a-a9e0-6c7614c57d1f
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: L47HI71RjV8g6EyXHqdUuAOtEFv7iUxYDREF-OSBMUE
+id: media_manager
+label: 'Media manager'
+weight: 6
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access media overview'
+  - 'access media_browser entity browser pages'
+  - 'administer media'
+  - 'administer media bundles'

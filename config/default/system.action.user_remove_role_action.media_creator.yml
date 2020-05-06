@@ -1,0 +1,14 @@
+uuid: 60236f62-669e-40d4-a4e9-34207d8b1381
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.media_creator
+  module:
+    - user
+id: user_remove_role_action.media_creator
+label: 'Remove the Media creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: media_creator
