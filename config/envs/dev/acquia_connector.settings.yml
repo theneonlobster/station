@@ -12,8 +12,8 @@ spi:
   send_node_user: 1
   send_watchdog: 1
   use_cron: 1
-  dynamic_banner: 0
-  set_variables_override: 0
+  dynamic_banner: 1
+  set_variables_override: 1
   set_variables_automatic:
     - acquia_spi_set_variables_automatic
     - error_level
@@ -33,6 +33,11 @@ spi:
     variables: {  }
     time: 0
   cron_interval: 28800
+  site_name: dev.theNeonLobster.com
+  site_machine_name: 472ba0a8_c8c6_bfd4_ddf4_28adbedcfe23__eedplatekdev__5eb303c5358b4
+  site_environment: dev
+  env_detection_enabled: true
+  site_uuid: 6e6721f0-5dcc-4685-9dad-d3f0189c19c1
 mapping:
   acquia_spi_send_node_user:
     - acquia_connector.settings
