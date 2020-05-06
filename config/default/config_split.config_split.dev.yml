@@ -6,7 +6,9 @@ id: dev
 label: Dev
 description: ''
 folder: ../config/envs/dev
-module: {  }
+module:
+  acquia_connector: 0
+  shield: 0
 theme: {  }
 blacklist:
   - acquia_connector.settings
