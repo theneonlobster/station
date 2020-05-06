@@ -1,0 +1,9 @@
+allow_cli: true
+shield_enable: true
+whitelist: ''
+print: Hello!
+credential_provider: shield
+credentials:
+  shield:
+    user: root
+    pass: password
