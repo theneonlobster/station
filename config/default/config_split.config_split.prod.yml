@@ -1,0 +1,15 @@
+uuid: 084301c4-ed92-43bb-b1a0-9705b3d23662
+langcode: en
+status: true
+dependencies: {  }
+id: prod
+label: Prod
+description: ''
+folder: ../config/envs/prod
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 1
