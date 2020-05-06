@@ -10,10 +10,10 @@
 # will not modify `drush.default_alias`, even though `drush.default_alias` is
 # set to `drush.aliases.local` by default.
 project:
-  machine_name: station
+  machine_name: eedplatek
   # Used for enforcing correct git commit msg syntax.
-  prefix: BLT
-  human_name: 'BLTed 10'
+  prefix: TNL
+  human_name: 'theNeonLobster'
   profile:
     name: lightning
   # This will be used as the local uri for all developers.
