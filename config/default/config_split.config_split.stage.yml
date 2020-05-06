@@ -6,9 +6,14 @@ id: stage
 label: Stage
 description: ''
 folder: ../config/envs/stage
-module: {  }
+module:
+  acquia_connector: 0
+  shield: 0
+  syslog: 0
 theme: {  }
-blacklist: {  }
+blacklist:
+  - acquia_connector.settings
+  - shield.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
