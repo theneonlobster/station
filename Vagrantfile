@@ -1,3 +1,7 @@
+Vagrant.configure("2") do |config|
+  config.vm.provision "shell",
+    inline: "sudo ln -s /usr/bin/python3 /usr/local/bin/python3"
+end
 # The absolute path to the root directory of the project. Both Drupal VM and
 # the config file need to be contained within this path.
 ENV['DRUPALVM_PROJECT_ROOT'] = "#{__dir__}"
