@@ -8,7 +8,8 @@ description: ''
 folder: ../config/envs/stage
 module: {  }
 theme: {  }
-blacklist: {  }
+blacklist:
+  - acquia_connector.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
