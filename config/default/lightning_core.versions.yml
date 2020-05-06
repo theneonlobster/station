@@ -17,8 +17,6 @@ contextual: 8.8.5
 crop: 2.1.0
 ctools: 3.4.0
 datetime: 8.8.5
-dblog: 8.8.5
-devel: 2.1.0
 diff: 1.0.0
 dropzonejs: 2.0.0-alpha5
 editor: 8.8.5
@@ -95,7 +93,6 @@ schemata: 1.0.0-beta2
 schemata_json_schema: 1.0.0-beta2
 search_api: 1.16.0
 search_api_db: 1.16.0
-seckit: 1.2.0
 serialization: 8.8.5
 shortcut: 8.8.5
 simple_gmap: 2.1.0-rc1
@@ -113,5 +110,4 @@ video_embed_field: 2.4.0
 video_embed_media: 2.4.0
 views: 8.8.5
 views_infinite_scroll: 1.7.0
-views_ui: 8.8.5
 workflows: 8.8.5
