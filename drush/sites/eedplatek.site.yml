@@ -4,3 +4,51 @@ local:
     host: local.eedplatek.com
     user: vagrant
     ssh: { options: '-o StrictHostKeyChecking=no -o PasswordAuthentication=no -i $HOME/.vagrant.d/insecure_private_key' }
+
+
+# Application 'eedplatek', environment 'dev'.
+dev:
+  root: /var/www/html/eedplatek.dev/docroot
+  ac-site: eedplatek
+  ac-env: dev
+  ac-realm: prod
+  uri: eedplatekdev.prod.acquia-sites.com
+  dev.livedev:
+    parent: '@eedplatek.dev'
+    root: /mnt/gfs/eedplatek.dev/livedev/docroot
+  host: eedplatekdev.ssh.prod.acquia-sites.com
+  user: eedplatek.dev
+  paths:
+    drush-script: drush9
+
+
+# Application 'eedplatek', environment 'prod'.
+prod:
+  root: /var/www/html/eedplatek.prod/docroot
+  ac-site: eedplatek
+  ac-env: prod
+  ac-realm: prod
+  uri: eedplatek.prod.acquia-sites.com
+  prod.livedev:
+    parent: '@eedplatek.prod'
+    root: /mnt/gfs/eedplatek.prod/livedev/docroot
+  host: eedplatek.ssh.prod.acquia-sites.com
+  user: eedplatek.prod
+  paths:
+    drush-script: drush9
+
+
+# Application 'eedplatek', environment 'test'.
+test:
+  root: /var/www/html/eedplatek.test/docroot
+  ac-site: eedplatek
+  ac-env: test
+  ac-realm: prod
+  uri: eedplatektest.prod.acquia-sites.com
+  test.livedev:
+    parent: '@eedplatek.test'
+    root: /mnt/gfs/eedplatek.test/livedev/docroot
+  host: eedplatektest.ssh.prod.acquia-sites.com
+  user: eedplatek.test
+  paths:
+    drush-script: drush9
