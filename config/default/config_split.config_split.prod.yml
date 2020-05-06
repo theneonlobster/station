@@ -6,11 +6,9 @@ id: prod
 label: Prod
 description: ''
 folder: ../config/envs/prod
-module:
-  acquia_connector: 0
+module: {  }
 theme: {  }
-blacklist:
-  - acquia_connector.settings
+blacklist: {  }
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true

@@ -1,0 +1,11 @@
+spi:
+  site_name: theNeonLobster.com
+  dynamic_banner: 1
+  admin_priv: 1
+  send_node_user: 1
+  send_watchdog: 1
+  use_cron: 1
+  set_variables_override: 1
+  site_machine_name: 472ba0a8_c8c6_bfd4_ddf4_28adbedcfe23__eedplatek__5eb3187adcdd9
+  site_environment: prod
+  env_detection_enabled: true
