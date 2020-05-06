@@ -1,3 +1,5 @@
+admin_toolbar: 2.2.0
+admin_toolbar_tools: 2.2.0
 autosave_form: 1.1.0
 bg_image_formatter: 1.14.0
 blazy: 2.0.0
@@ -73,6 +75,7 @@ menu_ui: 8.8.5
 metatag: 1.13.0
 moderation_dashboard: 1.0.0-beta1
 moderation_sidebar: 1.3.0
+module_filter: 3.1.0
 node: 8.8.5
 openapi: 2.0.0-rc3
 openapi_jsonapi: 2.0.0-rc2
