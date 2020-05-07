@@ -3,6 +3,7 @@ acquia_purge: 1.0.0
 admin_toolbar: 2.2.0
 admin_toolbar_tools: 2.2.0
 autosave_form: 1.1.0
+ban: 8.8.5
 bg_image_formatter: 1.14.0
 big_pipe: 8.8.5
 blazy: 2.0.0
@@ -35,8 +36,10 @@ field: 8.8.5
 field_ui: 8.8.5
 file: 8.8.5
 filter: 8.8.5
+google_analytics: 3.0.0
 help: 8.8.5
 history: 8.8.5
+honeypot: 2.0.0
 image: 8.8.5
 image_widget_crop: 2.3.0
 inline_entity_form: 1.0.0-rc3
@@ -70,6 +73,7 @@ lightning_scheduler: 3.14.0
 lightning_search: 5.1.0
 lightning_workflow: 3.14.0
 link: 8.8.5
+login_security: 1.5.0
 media: 8.8.5
 media_entity_instagram: 2.0.0
 media_entity_twitter: 2.4.0

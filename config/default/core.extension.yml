@@ -3,6 +3,7 @@ module:
   admin_toolbar: 0
   admin_toolbar_tools: 0
   autosave_form: 0
+  ban: 0
   bg_image_formatter: 0
   big_pipe: 0
   blazy: 0
@@ -37,6 +38,7 @@ module:
   filter: 0
   help: 0
   history: 0
+  honeypot: 0
   image: 0
   image_widget_crop: 0
   inline_entity_form: 0
@@ -69,6 +71,7 @@ module:
   lightning_search: 0
   lightning_workflow: 0
   link: 0
+  login_security: 0
   media: 0
   media_entity_instagram: 0
   media_entity_twitter: 0

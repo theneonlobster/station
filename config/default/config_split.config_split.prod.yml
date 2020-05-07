@@ -8,10 +8,12 @@ description: ''
 folder: ../config/envs/prod
 module:
   acquia_connector: 0
+  google_analytics: 0
   syslog: 0
 theme: {  }
 blacklist:
   - acquia_connector.settings
+  - google_analytics.settings
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
