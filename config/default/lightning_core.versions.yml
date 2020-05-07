@@ -95,6 +95,9 @@ path_alias: 8.8.5
 pathauto: 1.8.0
 purge: 3.0.0-beta9
 purge_drush: 3.0.0-beta9
+purge_processor_cron: 3.0.0-beta9
+purge_processor_lateruntime: 3.0.0-beta9
+purge_queuer_coretags: 3.0.0-beta9
 purge_ui: 3.0.0-beta9
 quickedit: 8.8.5
 rdf: 8.8.5
