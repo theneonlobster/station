@@ -6,11 +6,7 @@ id: local
 label: Local
 description: ''
 folder: ../config/envs/local
-module:
-  dblog: 0
-  devel: 0
-  seckit: 0
-  views_ui: 0
+module: {  }
 theme: {  }
 blacklist: {  }
 graylist:
